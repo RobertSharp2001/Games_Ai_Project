@@ -456,19 +456,6 @@ public class TileData : MonoBehaviour {
 
     public void loadFromArray(Tilemap map, Tilemap pellets, Tilemap nodes, int[,] Array) {
         //Generating the locations of pellets
-        int pPellets = 0;
-        int MaxpPellets = Random.Range(1, 4);
-        int fruits = 0;
-        int MaxFruits = Random.Range(1, 3);
-
-        int PelletsX = Random.Range(5,_SizeX-5);
-        int PelletsX2 = Random.Range(5,_SizeX-5);
-
-        int PelletsY = Random.Range(0, 7);
-        int PelletsY2 = Random.Range(8, 16);
-        int PelletsY3 = Random.Range(17, _SizeY);
-
-        int FruitX = Random.Range(5, PelletsX - 3);
 
         for (int i = 0; i <= _SizeY; i++){
             for (int j = 0; j <= _SizeX; j++){

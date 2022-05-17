@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour{
 
     //For specifics.
     public GameObject targetBlue;
+    public GameObject targetPink;
+    public GameObject targetRed;
     public GameObject targetOrange;
 
     public bool[] ghostsEnabled;
@@ -32,6 +34,7 @@ public class GameManager : MonoBehaviour{
     public int startLives;
 
     public bool allowGenerateLevels = false;
+    public bool showTargets = false;
 
     public int GhostMultiplier { get; private set; } = 1;
 
@@ -87,6 +90,18 @@ public class GameManager : MonoBehaviour{
             } else {
                 this.ghosts[i].SetActive(true);
             }
+        }
+
+        if (showTargets){
+            targetBlue.GetComponent<SpriteRenderer>().enabled = true;
+            targetRed.GetComponent<SpriteRenderer>().enabled = true;
+            targetPink.GetComponent<SpriteRenderer>().enabled = true;
+            targetOrange.GetComponent<SpriteRenderer>().enabled = true;
+        } else {
+            targetBlue.GetComponent<SpriteRenderer>().enabled = false;
+            targetRed.GetComponent<SpriteRenderer>().enabled = false;
+            targetPink.GetComponent<SpriteRenderer>().enabled = false;
+            targetOrange.GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 
@@ -178,6 +193,10 @@ public class GameManager : MonoBehaviour{
         } else {
             gameOver();
         }
+    }
+
+    public void Quit(){
+        Application.Quit();
     }
 
     #region pellets
