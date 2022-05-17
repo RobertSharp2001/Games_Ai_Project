@@ -1,0 +1,2 @@
+C:\Users\rober\OneDrive - York St John University\AI\Remake2\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\rober\OneDrive - York St John University\AI\Remake2\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

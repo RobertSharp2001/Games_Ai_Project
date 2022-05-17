@@ -1,0 +1,10 @@
+**Add the scatter loops
+
+**Add the restart features.
+
+**Implement a new ghost that uses A* to follow the player constantly
+
+**Pacman Ai, reverse mode.
+
+**Have the mazes randomly generate
+* possibly make them change colour?
