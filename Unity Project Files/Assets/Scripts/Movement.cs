@@ -1,5 +1,8 @@
 using System;
+using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Movement : MonoBehaviour{
@@ -85,7 +88,23 @@ public class Movement : MonoBehaviour{
         //If the ghost is this in the same postion after 3 seconds, meaning it's stuck.
         if(check == this.transform.position && this.gameObject.tag != "Player"){
             //times direction by minus 1 to invert it;
-            this.direction *= -1;
+            //this.direction *= -1;
+            int randInt = Random.Range(0,4);
+            switch (randInt){
+                case 0:
+                    this.direction = Vector2.left;
+                    break;
+                case 1:
+                    this.direction = Vector2.right;
+                    break;
+                case 2:
+                    this.direction = Vector2.down;
+                    break;
+                case 3:
+                    this.direction = Vector2.up;
+                    break;
+
+            }
         }
     }
 
