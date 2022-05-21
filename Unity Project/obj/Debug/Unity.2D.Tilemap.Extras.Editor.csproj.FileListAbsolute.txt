@@ -1,0 +1,2 @@
+C:\Users\rober\OneDrive - York St John University\AI\Remake2\obj\Debug\Unity.2D.Tilemap.Extras.Editor.csproj.AssemblyReference.cache
+C:\Users\rober\OneDrive - York St John University\AI\Remake2\obj\Debug\Unity.2D.Tilemap.Extras.Editor.csproj.CoreCompileInputs.cache
