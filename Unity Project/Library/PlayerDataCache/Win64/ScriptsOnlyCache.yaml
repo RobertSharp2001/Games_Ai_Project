@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AnimatedSprite
+    - FPSCounter
+    - FPSUI
     - FSM
     - Fruit
     - GameManager
@@ -29,8 +31,11 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -143,6 +148,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5592}
     - Class: 114
       Script: {instanceID: 5698}
+    - Class: 114
+      Script: {instanceID: 18108}
+    - Class: 114
+      Script: {instanceID: 18262}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -902,6 +911,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: dcbb6680fc06ae13995440218110864e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FPSUI
   platform: 19
   scenePathNames:
   - Assets/Scenes/Pacman.unity
