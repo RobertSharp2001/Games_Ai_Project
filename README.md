@@ -25,3 +25,15 @@ Go to File -> Build in the unity editor
 Ensure that the 'Pacman' Scene Menu is build index 0.
 
 Choose your target platform, and press build.
+
+_______________
+Configuration Options:
+_______________
+
+There are three configuration options for the game both of which are located under the GameManager object.
+
+Firstly, the starting lives a player has.
+
+Secondly, whetehr the ghost's targets will be visible. 
+
+Third, whether the player can generate new levels with the middle mouse button.
