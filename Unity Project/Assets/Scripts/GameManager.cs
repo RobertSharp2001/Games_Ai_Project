@@ -31,8 +31,9 @@ public class GameManager : MonoBehaviour{
 
     public int score { get; private set; }
     public int lives { get; private set; }
-    public int startLives;
 
+    [Header("Config")]
+    public int startLives;
     public bool allowGenerateLevels = false;
     public bool showTargets = false;
 
