@@ -34,6 +34,6 @@ There are three configuration options for the game both of which are located und
 
 Firstly, the starting lives a player has.
 
-Secondly, whetehr the ghost's targets will be visible. 
+Secondly, whether the ghost's targets will be visible. 
 
 Third, whether the player can generate new levels with the middle mouse button.
