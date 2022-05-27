@@ -4,7 +4,7 @@ The playable demos of the game are in the 'Unity builds' folder.
 
 The Project files of the game are in the 'Unity Project' folder.
 
-The Documentation files for the game are in the 'Documents' folder.
+The Assesment document for the game is in the 'Documents' folder.
 
 _______________
 Game Controls:
